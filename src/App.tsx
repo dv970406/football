@@ -1,7 +1,16 @@
+import { css } from "@emotion/react";
+import { Stack } from "./stackflow/stackflow";
 function App() {
   return (
     <>
-      <div>Football</div>
+      <div
+        css={css`
+          background-color: red;
+          border-radius: 15px;
+        `}
+      >
+        <Stack />
+      </div>
     </>
   );
 }
