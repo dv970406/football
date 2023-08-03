@@ -18,7 +18,10 @@
     "strict": true,
     "noUnusedLocals": true,
     "noUnusedParameters": true,
-    "noFallthroughCasesInSwitch": true
+    "noFallthroughCasesInSwitch": true,
+
+    /* emotion의 css prop 사용을 위한 코드 */
+    "jsxImportSource": "@emotion/react"
   },
   "include": ["src"],
   "references": [{ "path": "./tsconfig.node.json" }]
